@@ -1,14 +1,14 @@
-import pygame
-import random
+import pyge
+import ran
 import math
-import os
+import o
 
 # Initialize Pygame
 pygame.init()
 
 # Set up the screen
 screen_width = 1080
-screen_height = 720
+screen_height = 
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Terminal Emulator")
 
@@ -22,7 +22,7 @@ black = (0, 0, 0)
 gray = (128, 128, 128)
 
 # Set up variables
-password = ""
+password = "NOT WORKING. ATTENDACNE GONE"
 students = [("John", 1234,"123.4.5.6"), ("Emily", 5678,"123.4.5.6"), ("Mike", 9012,"123.4.5.6"), ("Sara", 3456,"123.4.5.6"), ("David", 7890,"123.4.5.6"),
             ("Anna", 2345,"123.4.5.6"), ("Tom", 6789,"123.4.5.6"), ("Julia", 123,"123.4.5.6"), ("Peter", 4567,"123.4.5.6"), ("Mary", 8901,"123.4.5.6"),
             ("Jake", 5432,"123.4.5.6"), ("Olivia", 9876,"123.4.5.6"), ("Nick", 3210,"123.4.5.6"), ("Eva", 7654,"123.4.5.6"), ("Sam", 1098,"123.4.5.6")]
@@ -46,8 +46,7 @@ FPS = 60
 pixel_width = 20
 pixel_height = 20
 
-x_pixel = 0
-y_pixel = 0
+
 
 
 
@@ -74,7 +73,7 @@ while running:
             elif event.key == pygame.K_BACKSPACE:
                 password = password[:-1]
             elif event.key == pygame.K_RETURN:
-                if password == "pass@123":
+                if password == "CHANGED":
                     is_logged_in = True
                 else:
                     is_logged_in= False
@@ -82,7 +81,7 @@ while running:
                 running = False
 
     # Fill the screen with black
-    screen.fill((0, 0 ,0))
+    screen.fill((0, 0 
 
     # Draw the terminal window
     pygame.draw.rect(screen, white, (50, 50, screen_width - 100, screen_height - 100), 2)
@@ -93,10 +92,7 @@ while running:
     pygame.draw.rect(screen, gray, (200, 70, 500, 40), 2)
 
     # Calculate sin and cos values for rotation
-    sin_x = math.sin(angle_x)
-    cos_x = math.cos(angle_x)
-    sin_y = math.sin(angle_y)
-    cos_y = math.cos(angle_y)
+##NO ROTATION
 
     # Draw the donut
     for theta in range(0, 360, 10):
