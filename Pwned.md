@@ -11,5 +11,4 @@ More Information on : [Wiki](https://en.wikipedia.org/wiki/Have_I_Been_Pwned%3F)
 Since its launch, the primary development focus of HIBP has been to add new data breaches as quickly as possible after they are leaked to the public.
 In July 2015, online dating service [Ashley Madison](https://en.wikipedia.org/wiki/Ashley_Madison), known for encouraging users to have extramarital affairs , suffered a data breach , and the identities of more than 30 million users of the service were leaked to the public. The data breach received wide media coverage, presumably due to the large number of impacted users and the perceived shame of having an affair.
 
-
-<img width="1000" alt="Hibp" src="https://user-images.githubusercontent.com/96137168/228787649-7d8f90e6-e327-4c56-a5da-f69bf6d8d528.png">
+<img width="1000" alt="Hibp" src="Screenshot from 2023-04-18 19-31-40.png">
