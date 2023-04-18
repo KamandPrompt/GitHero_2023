@@ -1,3 +1,1 @@
-#FORMAT!
-
-Name | Roll No. | Public IP
+Satyam | B22236 | 152.58.108.25
